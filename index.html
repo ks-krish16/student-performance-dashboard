@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Performance Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main Content Area -->
+    <div class="main-content">
+        <!-- Header -->
+        <header class="header" >
+            <div class="header-left" style="margin-top: 20px;">
+                <h1>Student Performance Dashboard</h1>
+  
+            </div>
+            <nav class="navbar" style="margin-top: 20px;">
+            <div class="nav-links">
+                <a href="#row1"><h3>Row 1: Gender & Ethnicity</h3></a>
+                <a href="#row2"><h3>Row 2: Co-curricular</h3></a>
+                <a href="#row3"><h3>Row 3: Parental Factors</h3></a>
+                <a href="#row4"><h3>Row 4: Tutoring & Absence</h3></a>
+            </div>
+            </nav>
+   
+        </header>
+
+        <!-- Stats Cards -->
+        <div class="stats-container" style="margin-top: 150px;">
+            <div class="stat-card">
+                <div class="stat-icon">👥</div>
+                <div class="stat-info">
+                    <h3>2392</h3>
+                    <p>Total Students</p>
+                    
+                </div>
+
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">⭐</div>
+                <div class="stat-info">
+                    <h3>1.9</h3>
+                    <p>Average GPA</p>
+                    
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">📈</div>
+                <div class="stat-info">
+                    <h3>91.93%</h3>
+                    <p>Attendance</p>
+                    <span class="stat-change positive">percentage over the year</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Charts Grid -->
+        <div class="charts-grid">
+            <!-- Row 1: 2 columns -->
+            <div class="chart-row row1" id="row1">
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3>Genderwise Distribution</h3>
+                      
+                    </div>
+                    <div class="chart-content">
+                        <img src="img/genderwise1.png" alt="Grade Distribution Pie Chart" class="chart-image" >
+                    </div>
+                </div>
+
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3>Ethnicity wise Distribution</h3>
+                    </div>
+                    <div class="chart-content">
+                        <img src="img/ethwise1.png" alt="Monthly Performance Bar Chart" class="chart-image">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Row 2: 1 column -->
+            <div class="chart-row row2" id="row2">
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3>Student participation in co-curricular activties</h3>
+                     
+                    </div>
+                    <div class="chart-content">
+                        <img src="img/activity1.png" alt="Score Distribution Box Plot" class="chart-image">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Row 3: 3 columns -->
+            <div class="chart-row row3" id="row3">
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3>Parental education</h3>
+                    </div>
+                    <div class="chart-content">
+                        <img src="img/parentedu3.png" alt="Subject Scores Bar Chart" class="chart-image">
+                    </div>
+                </div>
+
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3>Parental education impact on GPA</h3>
+                    </div>
+                    <div class="chart-content">
+                        <img src="img/parentedu_vs_gpa1.png" alt="Class Performance Bar Chart" class="chart-image">
+                    </div>
+                </div>
+
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3>Parental support impact on GPA</h3>
+                    </div>
+                    <div class="chart-content">
+                        <img src="img/parentsupp_vs_gpa1.png" alt="Assignment Scores Bar Chart" class="chart-image">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Row 4: 3 columns -->
+            <div class="chart-row row4" id="row4">
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3>Tutoring</h3>
+                    </div>
+                    <div class="chart-content">
+                        <img src="img/tutoring1.png" alt="Exam Results Bar Chart" class="chart-image">
+                    </div>
+                </div>
+
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3>Weekly study hours impact on grade</h3>
+                    </div>
+                    <div class="chart-content">
+                        <img src="img/weeklystudy2.png" alt="Attendance Bar Chart" class="chart-image">
+                    </div>
+                </div>
+
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h3>absentance impact on grade</h3>
+                    </div>
+                    <div class="chart-content">
+                        <img src="img/absent_vs_grade1.png" alt="Department Comparison Bar Chart" class="chart-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+
